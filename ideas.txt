@@ -1,0 +1,22 @@
+Chiptune generator
+
+Phase 1: Make a simple GUI that shows you the option for which note to play.
+   OR, maybe, which frequency within some range.
+   Possibility:
+   Note dropdown menu, immutable text field showing frequency.
+It will only make a sine wave initially, given the parameter of frequency.
+
+Use pulse code modulation for now.
+
+LATER ON: Add the possibility of a square wave, triangle wave, sawtooth wave.
+
+Consider it 16-bit audio, mono initially.
+
+Even later: add possibility for effects.
+
+Eventually:
+    make an audio format representing a song!
+    higher bitrate possible
+
+Longer-term ambitions:
+    taking sound samples, making something tracker-like
