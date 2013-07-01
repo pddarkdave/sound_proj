@@ -1,0 +1,12 @@
+Chiptune generator
+
+Phase 1: Create a domain-specific language that lets you write expressions
+  expressing the frequency of the tune over time, as a function of time and
+  as a function of a limited previous number of samples.
+
+Requires: being able to play software-defined sound samples
+
+Also: Add export to .mp3 using LAME or something
+
+I like the idea of making a tracker. Maybe we could make a library function for
+the DSL which reads sound data from a table in a file?
